@@ -130,21 +130,23 @@ STM32G474RE and Python reaction time tester project
 
 \## 8. 實作照片：每張附一行圖說
 
-!\[硬體接線與測試環境](實作照片/Fullshot.jpg)
+!\[系統全貌與整體擺設圖](實作照片/Fullshot.jpg)
 
-\*圖 1：NUCLEO-G474RE 與外部紅黃綠 LED 及 PC13 中斷按鈕接線實圖\*
-
-
-
-!\[Python 端接收畫面](實作照片/termial\_state.png)
-
-\*圖 2：Python Jupyter Notebook 接收反應時間與偷跑/逾時訊息實測結果\*
+\*圖 1：F1 賽車起跑測試儀系統整體實作畫面，包含 STM32 主板、麵包板周邊電路與電腦端 Python 顯示畫面。\*
 
 
 
-!\[腳位特寫圖](實作照片/MCUhighlight.jpg)
+!\[硬體電路與線路接線細節](實作照片/LIne-setup.jpg)
 
-\*圖 3：NUCLEO-G474RE 於本專題所使用到的接腳\*
+\*圖 2：NUCLEO-G474RE 連結外接紅黃綠三色 LED（搭配限流電阻）與獨立 EXTI 按鈕之電路接線細節。\*
+
+
+
+!\[STM32 微控制器核心特寫](實作照片/MCUhighlight.jpg)
+
+\*圖 3：NUCLEO-G474RE 開發板特寫，展示板載 ST-Link 虛擬 COM Port 與微控制器系統。\*
+
+
 
 
 
