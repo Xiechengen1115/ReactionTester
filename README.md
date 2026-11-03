@@ -130,45 +130,51 @@ STM32G474RE and Python reaction time tester project
 
 \## 8. 實作照片：每張附一行圖說
 
-!\[系統全貌與整體擺設圖](Picture\_for\_today/Fullshot.jpg)
+!\[系統全貌與整體擺設圖](https://github.com/Xiechengen1115/Reaction\_Tester/blob/main/Picture\_for\_today/Fullshot.jpg)
 
 \*圖 1：F1 賽車起跑測試儀系統整體實作畫面，包含 STM32 主板、麵包板周邊電路與電腦端 Python 顯示介面。\*
 
 
 
-!\[硬體電路與線路接線細節](Picture\_for\_today/Line-setup.jpg)
+!\[硬體電路與線路接線細節](https://github.com/Xiechengen1115/Reaction\_Tester/blob/main/Picture\_for\_today/LIne-setup.jpg)
 
 \*圖 2：NUCLEO-G474RE 連結外接紅黃綠三色 LED（搭配限流電阻）與獨立 EXTI 按鈕之電路接線細節。\*
 
 
 
-!\[STM32 微控制器核心特寫](Picture\_for\_today/MCUhighlight.jpg)
+!\[STM32 微控制器核心特寫](https://github.com/Xiechengen1115/Reaction\_Tester/blob/main/Picture\_for\_today/MCUhighlight.jpg)
 
 \*圖 3：NUCLEO-G474RE 開發板特寫，展示板載 ST-Link 虛擬 COM Port 與微控制器系統。\*
 
 
 
-!\[紅燈狀態圖](Picture\_for\_today/State\_Only\_Red.jpg)
+!\[紅燈狀態圖](https://github.com/Xiechengen1115/Reaction\_Tester/blob/main/Picture\_for\_today/State\_Only\_Red.jpg)
 
 \*圖 4：狀態一：紅燈亮起\*
 
 
 
-!\[紅、黃燈狀態圖](Picture\_for\_today/State\_Red\_and\_Yellow.jpg)
+!\[紅、黃燈狀態圖](https://github.com/Xiechengen1115/Reaction\_Tester/blob/main/Picture\_for\_today/State\_Red\_and\_Yellow.jpg)
 
 \*圖 5：狀態二：紅、黃燈亮起，開始倒數隨機1\~3秒換綠燈\*
 
 
 
-!\[綠燈狀態圖](Picture\_for\_today/State\_Green.jpg)
+!\[綠燈狀態圖](https://github.com/Xiechengen1115/Reaction\_Tester/blob/main/Picture\_for\_today/State\_Green.jpg)
 
 \*圖 6：狀態三：綠燈亮起，開始捕捉反應時間\*
 
 
 
-!\[全暗狀態圖](Picture\_for\_today/State\_All\_Turnoff.jpg)
+!\[全暗狀態圖](https://github.com/Xiechengen1115/Reaction\_Tester/blob/main/Picture\_for\_today/State\_All\_Turnoff.jpg)
 
 \*圖 7：狀態四：燈全暗，表示測試成功或偷跑\*
+
+
+
+\[測試結果圖](https://github.com/Xiechengen1115/Reaction\_Tester/blob/main/Picture\_for\_today/termial\_state.png)
+
+\*圖 8：表示測試成功或偷跑\*
 
 \## 9. AI 使用說明：哪段請 AI、你怎樣查核
 
