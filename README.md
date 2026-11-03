@@ -132,11 +132,11 @@ STM32G474RE and Python reaction time tester project
 
 !\[系統全貌與整體擺設圖](Picture\_for\_today/Fullshot.jpg)
 
-\*圖 1：F1 賽車起跑測試儀系統整體實作畫面\*
+\*圖 1：F1 賽車起跑測試儀系統整體實作畫面，包含 STM32 主板、麵包板周邊電路與電腦端 Python 顯示介面。\*
 
 
 
-!\[硬體電路與線路接線細節](Picture\_for\_today/LIne-setup.jpg)
+!\[硬體電路與線路接線細節](Picture\_for\_today/Line-setup.jpg)
 
 \*圖 2：NUCLEO-G474RE 連結外接紅黃綠三色 LED（搭配限流電阻）與獨立 EXTI 按鈕之電路接線細節。\*
 
@@ -148,37 +148,27 @@ STM32G474RE and Python reaction time tester project
 
 
 
-
-
 !\[紅燈狀態圖](Picture\_for\_today/State\_Only\_Red.jpg)
 
-\*圖 4：狀態一:紅燈亮起\*
+\*圖 4：狀態一：紅燈亮起\*
 
 
 
 !\[紅、黃燈狀態圖](Picture\_for\_today/State\_Red\_and\_Yellow.jpg)
 
-\*圖 5：狀態二:紅、黃燈亮起，開始倒數隨機1.5\~3秒換綠燈\*
+\*圖 5：狀態二：紅、黃燈亮起，開始倒數隨機1\~3秒換綠燈\*
 
 
 
 !\[綠燈狀態圖](Picture\_for\_today/State\_Green.jpg)
 
-\*圖 6：狀態三:綠燈亮起，開始捕捉反應時間\*
+\*圖 6：狀態三：綠燈亮起，開始捕捉反應時間\*
 
 
 
 !\[全暗狀態圖](Picture\_for\_today/State\_All\_Turnoff.jpg)
 
-\*圖 7：狀態四:燈全暗，表測試成功或偷跑\*
-
-
-
-!\[終端機圖](Picture\_for\_today/termial\_state.png)
-
-\*圖 8：測試結果圖\*
-
-
+\*圖 7：狀態四：燈全暗，表示測試成功或偷跑\*
 
 \## 9. AI 使用說明：哪段請 AI、你怎樣查核
 
